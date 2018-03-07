@@ -1,2 +1,2 @@
 # MusicPlayer
-A music write with angular4 and bootstrap, soundcloud.
+A music player write with angular4 and bootstrap, soundcloud.
