@@ -1,0 +1,11 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -webkit-perspective: 900;
+    perspective: 900;
+    -webkit-perspective-origin: 80% 100%;
+    perspective-origin: 80% 100%;
+    background-color: #2d2e2f;
+    border-top: 1px solid #000;
+}
