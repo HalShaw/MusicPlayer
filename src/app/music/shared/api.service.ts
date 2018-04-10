@@ -4,7 +4,7 @@ import { Http } from '@angular/http';
 @Injectable()
 export class ApiService {
   
-  clientId = 'cnSYjxmeQCWsxjhf07BNwv5EUDe1jlNB';
+  clientId = '';
 
   constructor(
     private http: Http
