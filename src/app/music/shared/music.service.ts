@@ -23,7 +23,7 @@ export class MusicService {
 
   play(url) {
     this.load(url);
-    this.audio.play()
+    this.audio.play();
   }
 
   getPlayListTracks() {

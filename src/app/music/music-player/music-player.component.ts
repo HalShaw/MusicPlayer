@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
+declare var $:any;
+
 @Component({
   selector: 'app-music-player',
   templateUrl: './music-player.component.html',
@@ -18,6 +20,16 @@ export class MusicPlayerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+  showPause(pause,play) {
+    $(pause).show();
+    $(play).hide();
+  }
+
+  showPlay(pause,play) {
+    $(play).show();
+    $(pause).hide();
   }
 
 }
